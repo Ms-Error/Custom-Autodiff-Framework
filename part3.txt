@@ -1,0 +1,22 @@
+1. the intuition behind fused operators
+The intuition behind fused operators is to put multiple operator's computations 
+into one operator and therefore only need to compute once. This is benefitial 
+because with less computation we can access memeory less frequent and therefore 
+decrease the memeory IO.
+
+
+2. why it works for improving efficiency
+Since fused operators can decrease memeory IO, this can increase the Arithmetic 
+Itensity and therefore improve the efficiency. AI = FLOPS / # Memory access, we 
+decrease the # Memory access by merging operations and therefore increase the 
+AI.
+
+
+
+3. potential future improvements to these operators
+Use tiling to further decrease the Memory IO to increase AI. 
+
+
+
+
+
